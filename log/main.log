@@ -1,0 +1,17 @@
+2026-08-05 19:49:40,224 - ERROR - Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\LakshmanAIMLHYD\AppData\Local\Temp\ipykernel_6520\428191723.py", line 2, in <module>
+    with open("non_existent_file.txt", "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\LakshmanAIMLHYD\anaconda3\envs\laxman\Lib\site-packages\IPython\core\interactiveshell.py", line 346, in _modified_open
+    return io_open(file, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'non_existent_file.txt'
+2026-08-05 19:50:08,895 - INFO - This is an info message that will be logged to the file.
+2026-08-05 19:50:08,895 - WARNING - This is a warning message that will be logged to the file.
+2026-08-05 19:50:08,898 - ERROR - This is an error message that will be logged to the file.
+2026-08-05 19:50:08,899 - CRITICAL - This is a critical message that will be logged to the file.
+2026-08-05 19:52:55,537 - INFO - Adding 10 and 5, result: 15
+2026-08-05 19:52:55,537 - INFO - Subtracting 5 from 10, result: 5
+2026-08-05 19:52:55,537 - INFO - Multiplying 10 and 5, result: 50
+2026-08-05 19:52:55,537 - INFO - Dividing 10 by 5, result: 2.0

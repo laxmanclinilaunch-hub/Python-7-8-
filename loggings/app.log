@@ -1,0 +1,32 @@
+WARNING:root:This is a warning message that will be logged to the file.
+ERROR:root:This is an error message that will be logged to the file.
+CRITICAL:root:This is a critical message that will be logged to the file.
+
+
+ERROR:root:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\LakshmanAIMLHYD\AppData\Local\Temp\ipykernel_12588\3862286433.py", line 4, in test
+    division = a/b
+               ~^~
+ZeroDivisionError: division by zero
+ERROR:root:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\LakshmanAIMLHYD\AppData\Local\Temp\ipykernel_12588\428191723.py", line 2, in <module>
+    with open("non_existent_file.txt", "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\LakshmanAIMLHYD\anaconda3\envs\laxman\Lib\site-packages\IPython\core\interactiveshell.py", line 346, in _modified_open
+    return io_open(file, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'non_existent_file.txt'
+WARNING:root:This is a warning message that will be logged to the file.
+ERROR:root:This is an error message that will be logged to the file.
+CRITICAL:root:This is a critical message that will be logged to the file.
+ERROR:root:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\LakshmanAIMLHYD\AppData\Local\Temp\ipykernel_12588\428191723.py", line 2, in <module>
+    with open("non_existent_file.txt", "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\LakshmanAIMLHYD\anaconda3\envs\laxman\Lib\site-packages\IPython\core\interactiveshell.py", line 346, in _modified_open
+    return io_open(file, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'non_existent_file.txt'
